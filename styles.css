@@ -4,8 +4,65 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.no-cursor {
+    cursor: not-allowed;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+/* NAVEGATION BAR */
+
+nav {
+    height 100px;
+    padding: 50px 0;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.logo__title {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__link {
+    margin: 0 24px;
+    padding: 0 0 4px;
+    color: #243e63;
 }
