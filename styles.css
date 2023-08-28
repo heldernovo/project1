@@ -21,18 +21,18 @@ html {
     scroll-behavior: smooth;
 }
 
-button {
+.btn__action {
     border-radius: 32px;
     border: none;
     background-color: #6415ff;
     padding: 12px 32px;
 }
 
-button:hover {
+.btn__action:hover {
     background-color: #5011cc;
 }
 
-.btn {
+.btn__sign-up {
     color: #f7fafc;
     font-weight: 600;
     font-size: 14px;
@@ -41,10 +41,11 @@ button:hover {
 /* NAVEGATION BAR */
 
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 0;
+    padding: 32px;
 }
 
 
@@ -74,11 +75,14 @@ a {
 ul {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 li {
     list-style-type: none;
+}
+
+.nav__links {
+    display: flex;
 }
 
 .nav__link {
@@ -90,6 +94,6 @@ li {
     display: flex;
 }
 
-.nav__link:last-child {
-    margin-left: 48px;
+.nav__links li:nth-last-child(2) {
+    margin-left: 24px;
 }
