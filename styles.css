@@ -38,6 +38,9 @@ html {
     font-size: 14px;
 }
 
+.eblue{
+    color: #6415ff
+}
 /* NAVEGATION BAR */
 
 nav {
@@ -97,3 +100,4 @@ li {
 .nav__links li:nth-last-child(2) {
     margin-left: 24px;
 }
+
