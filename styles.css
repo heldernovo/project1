@@ -41,6 +41,15 @@ html {
 .eblue{
     color: #6415ff
 }
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+}
+
 /* NAVEGATION BAR */
 
 nav {
@@ -109,14 +118,43 @@ header{
 .header_contaier {
     width: 100%;
     display: flex;
-    justify-content: center;
-}
-
-.right_column {
-    width: 40%;
+    justify-content: space-between;
+    padding: 96px 0;
 }
 
 .left_column {
+    width: 45%;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    padding: 1px;
+}
+
+input {
+    flex-grow: 2;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form:focus-within {
+    outline 1px solid blue
+}
+
+.header_para {
+    margin: 32px 0;
+}
+
+.trusted {
+    margin: 80px 0;
+}
+
+.right_column {
     width: 60%;
 }
 
