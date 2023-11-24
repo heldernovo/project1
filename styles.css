@@ -120,6 +120,16 @@ li {
 
 header {
   min-height: calc(100vh -80px);
+  animation: animate-header 1s ease-out;
+}
+
+@keyframes animate-header{
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
 }
 
 .header_container {
@@ -185,10 +195,10 @@ input:focus {
 }
 
 .right_column {
-  width: 50%;
-  padding-left: 32px;
+  width: 55%;
 }
 
 .header_img {
   width: 100%;
 }
+
