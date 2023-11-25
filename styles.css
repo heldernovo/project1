@@ -140,7 +140,7 @@ header {
 }
 
 .left_column {
-  width: 45%;
+  width: 40%;
 }
 
 .form {
@@ -195,7 +195,7 @@ input:focus {
 }
 
 .right_column {
-  width: 55%;
+  width: 60%;
 }
 
 .header_img {
