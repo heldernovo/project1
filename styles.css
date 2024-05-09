@@ -118,6 +118,8 @@ li {
   display: none;
 }
 
+/* HEADER */
+
 header {
   min-height: calc(100vh -80px);
   animation: animate-header 1s ease-out;
@@ -202,3 +204,12 @@ input:focus {
   width: 100%;
 }
 
+/* FEATURES */
+
+.features_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 171;
+  padding: 96 0;
+}
