@@ -42,6 +42,10 @@ html {
   color: #6415ff;
 }
 
+.darkblue {
+  color: #243e63
+}
+
 h1 {
   font-size: 48px;
 }
@@ -211,6 +215,12 @@ input:focus {
 }
 
 .features_para {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.amazing {
   width: 100%;
   display: flex;
   justify-content: center;
