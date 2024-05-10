@@ -207,9 +207,11 @@ input:focus {
 /* FEATURES */
 
 .features_container {
+  padding: 80 0;
+}
+
+.features_para {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-left: 171;
-  padding: 96 0;
+  justify-content: center;
 }
