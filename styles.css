@@ -233,14 +233,34 @@ input:focus {
 }
 
 .services {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
-.service_secure, .service_support, .service_customizable,
-.service_reliable, .service_fast, .service_easy {
+.service_container {
   display: flex;
   width: calc(100%/3);
+}
+.service {
+  display: flex;
   padding: 32px 8px;
   margin: 0 16px;
+}
+.service_img {
+  width: 66px;
+  height: 66px;
+  border: 1px solid #e2e8f0;
+  border-radius: 50%;
+  padding: 20px;
+}
+.service_description {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 0 16px;
+}
+.service_para {
+  font-size: 16px;
+  margin-top: 16px;
 }
